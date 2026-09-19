@@ -1,0 +1,10 @@
+RUN C:\iverilog\bin\iverilog.EXE -g2012 -Wall -I C:\Users\a2391\lab2_02_clock_divider\src -I C:\Users\a2391\lab2_02_clock_divider\sim -s tb_clock_divider -o C:\Users\a2391\lab2_02_clock_divider\build\sim\run-52ec490589aa41d6b24f6b47896271c3\sim.vvp C:\Users\a2391\lab2_02_clock_divider\src\clock_divider.v C:\Users\a2391\lab2_02_clock_divider\src\input_fronted.v C:\Users\a2391\lab2_02_clock_divider\src\lab2_clock_divider.v C:\Users\a2391\lab2_02_clock_divider\sim\tb_clock_divider.sv
+
+RUN C:\iverilog\bin\vvp.EXE -N C:\Users\a2391\lab2_02_clock_divider\build\sim\run-52ec490589aa41d6b24f6b47896271c3\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+LAB2_PASS clock_divider checks=129
+C:\Users\a2391\lab2_02_clock_divider\sim\tb_clock_divider.sv:19: $finish called at 436000 (1ps)
+
+시뮬레이션 실행 완료. 진리표·자기검사·파형으로 회로의 정답 여부를 확인하세요.
+WAVE C:\Users\a2391\lab2_02_clock_divider\build\sim\wave.vcd
+ *  Terminal will be reused by tasks, press any key to close it. 
